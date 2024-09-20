@@ -127,6 +127,27 @@ public class Principal {
         perguntas[6].opcaoE = "3,16";
         perguntas[6].correta = "D";
 
+        perguntas[7] = new Principal();
+        perguntas[7].pergunta = " quanto e 1000 x 0,5";
+        perguntas[7].opcaoA = "500";
+        perguntas[7].opcaoB = "1500";
+        perguntas[7].opcaoC = "2000";
+        perguntas[7].opcaoD = "550";
+        perguntas[7].opcaoE = "1550";
+        perguntas[7].correta = "A";
+
+        perguntas[8] = new Principal();
+        perguntas[8].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[8].opcaoA = "50";
+        perguntas[8].opcaoB = "10";
+        perguntas[8].opcaoC = "60";
+        perguntas[8].opcaoD = "25";
+        perguntas[8].opcaoE = "5";
+        perguntas[8].correta = "A";
+
+
+        // Início do quiz
+
         // Início do quiz
         for (int i = 0; i < perguntas.length; i++) {
             System.out.println("Questão " + (i + 1) + ":");
