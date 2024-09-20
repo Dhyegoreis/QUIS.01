@@ -109,6 +109,24 @@ public class Principal {
         perguntas[4].opcaoE = "32";
         perguntas[4].correta = "C";
 
+        perguntas[5] = new Principal();
+        perguntas[5].pergunta = "50/25 ?";
+        perguntas[5].opcaoA = "25";
+        perguntas[5].opcaoB = "2";
+        perguntas[5].opcaoC = "5";
+        perguntas[5].opcaoD = "30";
+        perguntas[5].opcaoE = "15";
+        perguntas[5].correta = "B";
+
+        perguntas[6] = new Principal();
+        perguntas[6].pergunta = " qual e valor de Pi?";
+        perguntas[6].opcaoA = "3";
+        perguntas[6].opcaoB = "3,18";
+        perguntas[6].opcaoC = "6";
+        perguntas[6].opcaoD = "3,14";
+        perguntas[6].opcaoE = "3,16";
+        perguntas[6].correta = "D";
+
         // Início do quiz
         for (int i = 0; i < perguntas.length; i++) {
             System.out.println("Questão " + (i + 1) + ":");
@@ -121,5 +139,6 @@ public class Principal {
 
         // Resultado final
         System.out.println("Você acertou " + acertos + " de 15 perguntas.");
+
     }
 }
