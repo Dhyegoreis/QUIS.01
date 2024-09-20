@@ -90,7 +90,24 @@ public class Principal {
         perguntas[2].opcaoE = "NaCl";
         perguntas[2].correta = "A";
 
-        // Continue adicionando mais perguntas...
+
+        perguntas[3] = new Principal();
+        perguntas[3].pergunta = "quanto e dois x dois?";
+        perguntas[3].opcaoA = "2";
+        perguntas[3].opcaoB = "4";
+        perguntas[3].opcaoC = "8";
+        perguntas[3].opcaoD = "3";
+        perguntas[3].opcaoE = "0";
+        perguntas[3].correta = "B";
+
+        perguntas[4] = new Principal();
+        perguntas[4].pergunta = " Qunato e 8x5?";
+        perguntas[4].opcaoA = "45";
+        perguntas[4].opcaoB = "25";
+        perguntas[4].opcaoC = "40";
+        perguntas[4].opcaoD = "35";
+        perguntas[4].opcaoE = "32";
+        perguntas[4].correta = "C";
 
         // Início do quiz
         for (int i = 0; i < perguntas.length; i++) {
