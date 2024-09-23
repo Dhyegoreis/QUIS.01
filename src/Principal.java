@@ -82,17 +82,17 @@ public class Principal {
         // Exemplo de outra pergunta:
 
         perguntas[2] = new Principal();
-        perguntas[2].pergunta = "Qual é a fórmula da água?";
-        perguntas[2].opcaoA = "H2O";
-        perguntas[2].opcaoB = "CO2";
-        perguntas[2].opcaoC = "O2";
-        perguntas[2].opcaoD = "H2SO4";
-        perguntas[2].opcaoE = "NaCl";
-        perguntas[2].correta = "A";
+        perguntas[2].pergunta = "Qual e o resultado final dessa operação (3 x 4) + (4 x 3 ) - (5 x 2)?";
+        perguntas[2].opcaoA = "10";
+        perguntas[2].opcaoB = "13";
+        perguntas[2].opcaoC = "20";
+        perguntas[2].opcaoD = "30";
+        perguntas[2].opcaoE = "14";
+        perguntas[2].correta = "E";
 
 
         perguntas[3] = new Principal();
-        perguntas[3].pergunta = "quanto e dois x dois?";
+        perguntas[3].pergunta = "Quanto e dois x dois?";
         perguntas[3].opcaoA = "2";
         perguntas[3].opcaoB = "4";
         perguntas[3].opcaoC = "8";
@@ -101,7 +101,7 @@ public class Principal {
         perguntas[3].correta = "B";
 
         perguntas[4] = new Principal();
-        perguntas[4].pergunta = " Qunato e 8x5?";
+        perguntas[4].pergunta = " Quanto e 8x5?";
         perguntas[4].opcaoA = "45";
         perguntas[4].opcaoB = "25";
         perguntas[4].opcaoC = "40";
@@ -181,7 +181,7 @@ public class Principal {
         perguntas[12].opcaoE = "5";
         perguntas[12].correta = "A";
 
-        // Início do quiz
+
 
         // Início do quiz
         for (int i = 0; i < perguntas.length; i++) {
