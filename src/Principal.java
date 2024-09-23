@@ -145,6 +145,41 @@ public class Principal {
         perguntas[8].opcaoE = "5";
         perguntas[8].correta = "A";
 
+        perguntas[9] = new Principal();
+        perguntas[9].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[9].opcaoA = "50";
+        perguntas[9].opcaoB = "10";
+        perguntas[9].opcaoC = "60";
+        perguntas[9].opcaoD = "25";
+        perguntas[9].opcaoE = "5";
+        perguntas[9].correta = "A";
+
+        perguntas[10] = new Principal();
+        perguntas[10].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[10].opcaoA = "50";
+        perguntas[10].opcaoB = "10";
+        perguntas[10].opcaoC = "60";
+        perguntas[10].opcaoD = "25";
+        perguntas[10].opcaoE = "5";
+        perguntas[10].correta = "A";
+
+        perguntas[11] = new Principal();
+        perguntas[11].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[11].opcaoA = "50";
+        perguntas[11].opcaoB = "10";
+        perguntas[11].opcaoC = "60";
+        perguntas[11].opcaoD = "25";
+        perguntas[11].opcaoE = "5";
+        perguntas[11].correta = "A";
+
+        perguntas[12] = new Principal();
+        perguntas[12].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[12].opcaoA = "50";
+        perguntas[12].opcaoB = "10";
+        perguntas[12].opcaoC = "60";
+        perguntas[12].opcaoD = "25";
+        perguntas[12].opcaoE = "5";
+        perguntas[12].correta = "A";
 
         // Início do quiz
 
