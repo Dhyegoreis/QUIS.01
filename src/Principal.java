@@ -61,22 +61,22 @@ public class Principal {
 
         // Criação das perguntas
         perguntas[0] = new Principal();
-        perguntas[0].pergunta = "Qual a capital da França?";
-        perguntas[0].opcaoA = "Londres";
-        perguntas[0].opcaoB = "Paris";
-        perguntas[0].opcaoC = "Berlim";
-        perguntas[0].opcaoD = "Madrid";
-        perguntas[0].opcaoE = "Roma";
-        perguntas[0].correta = "B";
+        perguntas[0].pergunta = "Si um circulo tem um diamenro de 60 cm. Qual e o valor de r ?";
+        perguntas[0].opcaoA = "25";
+        perguntas[0].opcaoB = "50";
+        perguntas[0].opcaoC = "30";
+        perguntas[0].opcaoD = "10";
+        perguntas[0].opcaoE = "60";
+        perguntas[0].correta = "C";
 
         perguntas[1] = new Principal();
-        perguntas[1].pergunta = "Quem descobriu o Brasil?";
-        perguntas[1].opcaoA = "Cristóvão Colombo";
-        perguntas[1].opcaoB = "Dom Pedro I";
+        perguntas[1].pergunta = "Quem e o pai da matemática ?";
+        perguntas[1].opcaoA = " Arquimedes ";
+        perguntas[1].opcaoB = "Euclides";
         perguntas[1].opcaoC = "Pedro Álvares Cabral";
-        perguntas[1].opcaoD = "Américo Vespúcio";
+        perguntas[1].opcaoD = "Pitágoras";
         perguntas[1].opcaoE = "Vasco da Gama";
-        perguntas[1].correta = "C";
+        perguntas[1].correta = "D";
 
         // Adicione aqui as outras 13 perguntas
         // Exemplo de outra pergunta:
