@@ -110,7 +110,7 @@ public class Principal {
         perguntas[4].correta = "C";
 
         perguntas[5] = new Principal();
-        perguntas[5].pergunta = "50/25 ?";
+        perguntas[5].pergunta = " qual e o valor de 50/25 ?";
         perguntas[5].opcaoA = "25";
         perguntas[5].opcaoB = "2";
         perguntas[5].opcaoC = "5";
@@ -119,7 +119,7 @@ public class Principal {
         perguntas[5].correta = "B";
 
         perguntas[6] = new Principal();
-        perguntas[6].pergunta = " qual e valor de Pi?";
+        perguntas[6].pergunta = " Qual e valor de Pi ?";
         perguntas[6].opcaoA = "3";
         perguntas[6].opcaoB = "3,18";
         perguntas[6].opcaoC = "6";
@@ -128,7 +128,7 @@ public class Principal {
         perguntas[6].correta = "D";
 
         perguntas[7] = new Principal();
-        perguntas[7].pergunta = " quanto e 1000 x 0,5";
+        perguntas[7].pergunta = " Quanto e 1000 x 0,5 ?";
         perguntas[7].opcaoA = "500";
         perguntas[7].opcaoB = "1500";
         perguntas[7].opcaoC = "2000";
@@ -137,7 +137,7 @@ public class Principal {
         perguntas[7].correta = "A";
 
         perguntas[8] = new Principal();
-        perguntas[8].pergunta = "quanto e 10 x (50 - 45)  ";
+        perguntas[8].pergunta = "quanto e 10 x (50 - 45) ? ";
         perguntas[8].opcaoA = "50";
         perguntas[8].opcaoB = "10";
         perguntas[8].opcaoC = "60";
@@ -146,40 +146,40 @@ public class Principal {
         perguntas[8].correta = "A";
 
         perguntas[9] = new Principal();
-        perguntas[9].pergunta = "quanto e 10 x (50 - 45)  ";
-        perguntas[9].opcaoA = "50";
-        perguntas[9].opcaoB = "10";
-        perguntas[9].opcaoC = "60";
-        perguntas[9].opcaoD = "25";
-        perguntas[9].opcaoE = "5";
-        perguntas[9].correta = "A";
+        perguntas[9].pergunta = "Quanto e 20 x 30 ? ";
+        perguntas[9].opcaoA = "500";
+        perguntas[9].opcaoB = "300";
+        perguntas[9].opcaoC = "100";
+        perguntas[9].opcaoD = "600";
+        perguntas[9].opcaoE = "650";
+        perguntas[9].correta = "D";
 
         perguntas[10] = new Principal();
-        perguntas[10].pergunta = "quanto e 10 x (50 - 45)  ";
-        perguntas[10].opcaoA = "50";
-        perguntas[10].opcaoB = "10";
-        perguntas[10].opcaoC = "60";
-        perguntas[10].opcaoD = "25";
-        perguntas[10].opcaoE = "5";
-        perguntas[10].correta = "A";
+        perguntas[10].pergunta = "Quanto e (5 + 4) * (8 + 9) / ( 2 * 4) ? ";
+        perguntas[10].opcaoA = "10";
+        perguntas[10].opcaoB = "8";
+        perguntas[10].opcaoC = "25";
+        perguntas[10].opcaoD = "5";
+        perguntas[10].opcaoE = "30";
+        perguntas[10].correta = "B";
 
         perguntas[11] = new Principal();
-        perguntas[11].pergunta = "quanto e 10 x (50 - 45)  ";
-        perguntas[11].opcaoA = "50";
+        perguntas[11].pergunta = "Quanto e 5 * 4 / 2 ? ";
+        perguntas[11].opcaoA = "2";
         perguntas[11].opcaoB = "10";
-        perguntas[11].opcaoC = "60";
-        perguntas[11].opcaoD = "25";
-        perguntas[11].opcaoE = "5";
-        perguntas[11].correta = "A";
+        perguntas[11].opcaoC = "15";
+        perguntas[11].opcaoD = "6";
+        perguntas[11].opcaoE = "3";
+        perguntas[11].correta = "B";
 
         perguntas[12] = new Principal();
-        perguntas[12].pergunta = "quanto e 10 x (50 - 45)  ";
-        perguntas[12].opcaoA = "50";
-        perguntas[12].opcaoB = "10";
-        perguntas[12].opcaoC = "60";
-        perguntas[12].opcaoD = "25";
-        perguntas[12].opcaoE = "5";
-        perguntas[12].correta = "A";
+        perguntas[12].pergunta = "Quanto e (20 / 0,5 ) * 10 ?  ";
+        perguntas[12].opcaoA = "40";
+        perguntas[12].opcaoB = "20";
+        perguntas[12].opcaoC = "100";
+        perguntas[12].opcaoD = "200";
+        perguntas[12].opcaoE = "400";
+        perguntas[12].correta = "E";
 
 
 
