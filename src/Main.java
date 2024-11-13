@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -161,6 +159,11 @@ public class Main {
 
         // Resultado final
         System.out.println("Você acertou " + acertos + " de 15 perguntas.");
+
+        double porcentagem = ((double) acertos / perguntas.length) * 100;
+        System.out.printf("Sua porcentagem de acertos foi: %.2f%%\n", porcentagem);
+
+        scanner.close();
 
     }
 }
